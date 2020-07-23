@@ -1,45 +1,57 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/home_styles.css">
-    <!--  Custum styles -->
-    <title>Farmer WareHouse</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmers WareHouse</title>
+
+    <!-- Import dos styles -->
+    <link rel="stylesheet" href="/css/prefStyles.css">
 </head>
 
 <body>
-    <!-- Nav Bar -->
+    <!-- Cabeçalho -->
     <header>
-        <nav class="main-nav">
-            <div style="display: inline-flex;">
-                <h1>Farmers WareHouse</h1>
-                <div>
-                    <a href="#">Home</a>
-                    <a href="#">Recepies</a>
-                    <a href="#">About</a>
-                    <button>Play Now!</button>
-                </div>
+        <!-- Barra de navegaçao -->
+        <!-- Fixa no topo, nome sobre a esquerda e interactivos ao lado direito -->
+        <nav class="nav-container">
+            <h1 class="main-text">Farmers Warehouse</h1>
+            <!-- Container para os btns de interaçao -->
+            <div class="nav-btn">
+                <a href="#">Name</a>
+                <a href="#">Name</a>
+                <a href="#">Name</a>
+                <button style="min-width: 100px;">Play Now</button>
             </div>
         </nav>
     </header>
+    <main>
+        <!-- Informaçao sobre o jogo -->
+        <section class="game-info">
+            <!-- divisao sobre a esquerda, informaçoes sobre -->
+            <div class="game-info-container">
+                <div>
+                    <h2>This is the game!</h2>
+                    <p style="text-align: justify; margin: 8%  2%;">
+                        Parágrafos separados por linhas em branco são mais legíveis. Porém,
+                        também podemos distinguir parágrafos indentando suas primeiras linhas.
+                        Uma abordagem que ocupa menos espaço e é usada para economizar
+                        papel quando impresso. </p>
+                    <button>Jump for it</button>
+                </div>
+            </div>
+            <!-- divisao sobre a direita, imagem representativa -->
+            <img class="game-info-img" src="/img/placeholder-img.jpg" alt="this is a placeholder">
+        </section>
+        <!-- Informação sobre o estado do servidor -->
+        <section class="server-state">
+            <div>
 
-    <main class="bg-light">
-
+            </div>
+        </section>
     </main>
-    <footer class="bg-dark">
-
-    </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="../js/bootstrap.js"></script>
+    <footer></footer>
 </body>
 
 </html>
