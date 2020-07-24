@@ -10,6 +10,7 @@ html , body {
 header {
     background-color: #6D597A;
     height: 4%;
+    width: 100%;
     padding-bottom: 20px;
 }
 /* Estilo para o corpo principal */  
@@ -42,10 +43,10 @@ button {
     border-radius: 50px;
     size: 40px;
 }
+
 button:hover{
     background-color: #F2AF5C;
 }
-
 p{
     margin: 0;
     padding: 0;
@@ -55,9 +56,10 @@ p{
 /* Classes */
 .nav-container {
     background-color: rgb(197, 197, 255);
-    height: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -69,18 +71,19 @@ p{
 }
 .nav-btn{
     background-color: blueviolet;
+    height: 100%;
+    width: auto;
+    margin-right: 10px;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
     justify-content: space-around;
-    height: 100%;
-    width: auto;
 }
 /* Game info section */
 .game-info{
     background-color: lightgoldenrodyellow;
     padding: 30px 20px;
-
+    margin-top: 2%;
     display: grid;    
     grid-template-columns: 40% 1fr;     
     grid-auto-flow: column;    
@@ -99,5 +102,24 @@ p{
 .game-info-img{
     width: 100%;
     height: auto;
+    align-items: center;
+}
+
+/* Estilo para a parte de informaçoes do server */
+.server-state-container{
+    background-color: cornflowerblue;
+    padding: 30px 20px;
+    margin-top: 10%;
+
+    display: flex;
+    flex-direction: row;    
+}
+/* Flex para o cartao de informaçoes */
+.card-container{
+    background-color: cornsilk;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
