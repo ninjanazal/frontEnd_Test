@@ -12,8 +12,12 @@ Estruturação da pagina principal, nao representa o produto final
 # * [ ] Body
 * [x] Game Information
 * [x] Apresentação de produto
-* [ ] Esquema do produto
-* [ ] Btn de interação 
+* [x] Esquema do produto
+* [x] Btn de interação 
 
-* [ ] Server State
-* [ ] Cards
+* [x] Server State
+* [x] Cards
+* [x] Img on cards
+
+# * [ ] Footer
+* [ ] 3 col items
